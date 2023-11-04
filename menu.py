@@ -122,16 +122,15 @@ while place_order:
 
             # 3. Check if the customer typed a number
             if not menu_selection.isdigit():
-                print(f"Sorry, input is not a number")         
+                print(f"Sorry,'{menu_selection}' is not a number")         
             else:
-                if menu_selection.isdigit():
-                           
-                # Convert the menu selection to an integer
-                number = int(menu_selection)
                 
+                # Convert the menu selection to an integer
+                if menu_selection.isdigit():
+                    customer_input = int(menu_selection)    
                 # 4. Check if the menu selection is in the menu items
-                if int(number) in menu_items.keys():
-                    
+                if customer_input in menu_items.keys():
+
                     # Store the item name as a variable
 
 
