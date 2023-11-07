@@ -200,8 +200,10 @@ print("This is what we are preparing for you.\n")
 # Uncomment the following line to check the structure of the order
 #print(order)
 
-print("Item name                 | Price  | Quantity")
-print("--------------------------|--------|----------")
+
+print("Item name                | Price  | Quantity")
+print("-------------------------|--------|----------")
+
 
 # 6. Loop through the items in the customer's order
 for item in order_list:
@@ -218,7 +220,7 @@ for item in order_list:
     item_spaces = " " * num_item_spaces
     price_spaces = " " * (6 - len(str(price)))
     quantity_spaces = " " * (8 - len(str(quantity)))
-    
+
     # 10. Print the item name, price, and quantity
     print(f"{item_name}{item_spaces} | ${price}{price_spaces} | {quantity}")
 
