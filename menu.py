@@ -151,7 +151,7 @@ while place_order:
                         "Quantity": quantity
                     })
 
-     
+
         else:
             # Tell the customer they didn't select a menu option
             print(f"{menu_category} is not a menu option.")
@@ -196,7 +196,6 @@ print("Item name                | Price | Quantity")
 print("-------------------------|-------|---------")
 
 
-
 # 6. Loop through the items in the customer's order
 for item in order_list:
         
@@ -215,7 +214,8 @@ for item in order_list:
     quantity_spaces = " " * (8 - len(str(quantity)))
 
     # 10. Print the item name, price, and quantity
-    print(f"{item_name}{item_spaces} | ${price}{price_spaces}| {quantity}{quantity_spaces}")
+    print(f"{item_name}{item_spaces} | ${price}{price_spaces} | {quantity}{quantity_spaces}")
+
 
 # 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum()
