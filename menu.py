@@ -150,13 +150,8 @@ while place_order:
                         "Price": menu_items[customer_input]["Price"],
                         "Quantity": quantity
                     })
-                       
-                    # Tell the customer that their input isn't valid
-                                                            
 
-                # Tell the customer they didn't select a menu option
-                                               
-                
+     
         else:
             # Tell the customer they didn't select a menu option
             print(f"{menu_category} is not a menu option.")
