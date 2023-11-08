@@ -192,8 +192,8 @@ print("This is what we are preparing for you.\n")
 # Uncomment the following line to check the structure of the order
 #print(order)
 
-print("Item name                | Price  | Quantity")
-print("-------------------------|--------|---------")
+print("Item name                 | Price  | Quantity")
+print("--------------------------|--------|----------")
 
 
 # 6. Loop through the items in the customer's order
@@ -205,7 +205,7 @@ for item in order_list:
     quantity = item["Quantity"]
 
     # 8. Calculate the number of spaces for formatted printing
-    num_item_spaces = 24 - len(item_name)
+    num_item_spaces = 25 - len(item_name)
 
 
     # 9. Create space strings
