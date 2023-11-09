@@ -1,5 +1,4 @@
 # python-challenge-1
- 
 ## The Challenge
 This project is an example of designing an interactive ordering system from a
 food truck menu using the Python skills learned so far in class. The starter
@@ -8,7 +7,6 @@ part of one of the classroom activities. The user will be adapting the menu in
 the starter code to allow customers to place an order, which includes storing
 the customer's order and printing the receipt with the complete order list and
 the total cost.
-
 ## Getting Started
 Before starting this assignment, make sure the user has a GitHub account, and 
 also VS Code or similar IDE that can run Python 3.10 installed on the user's
@@ -19,7 +17,6 @@ computer. Then take the following steps:
 >*   Inside the local Git repository, add the starter file "menu.py" from the
 >    file downloads
 >*   Push the changes just made to GitHub or GitLab.
-
 ## Project Execution
 Using the starter code provided by the instructional staff, the user will first
 create the order system, then prepare the order receipt. The starter code 
@@ -89,14 +86,9 @@ includes comments that the user can use as a guide for the necessary steps.
 >11. Upon exiting the "for" loop, use list comprehension and "sum()" to
 >calculate the total price of the order and display it to the customer. Make
 >sure you multiply the price by the quantity in your list comprehension.
-## Collaborators
-Although this project was done indivdually, the skillset used to complete this 
-assignment is a culmination of knowledge learned in the classroom setting that
-includes lecture materials, example programming from instructors, interactive
-and engaging dialogue in group settings among fellow students, independent
-internet researches, and some general programming guidance from sources such as
-CoPilot and ChatGPT. 
-
+## Sources
+The starter code was sourced in November 2023 from the instructional staff of
+the OSU AI Bootcamp.
 
 
 
