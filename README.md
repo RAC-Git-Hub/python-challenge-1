@@ -58,11 +58,12 @@ includes comments that the user can use as a guide for the necessary steps.
 >information to print the receipt at the end of the order. The price should be
 >found in the "menu_items" dictionary.
 >5. Inside the continuous "while" loop that prompts the customer if they would
->like to keep ordering, write a "match:case" statement that checks for "y" or "n"
->(upper or lowercase), and includes a default option if neither letter is entered
->by the customer. The following actions should be performed for each case:
->*   "y" : Set the "place_order" variable to "True" and break from the continuous
->while loop.
+>like to keep ordering, write a "match:case" statement that checks for "y" or
+>"n" >(upper or lowercase), and includes a default option if neither letter is
+>entered by the customer. The following actions should be performed for each
+>case:
+>*   "y" : Set the "place_order" variable to "True" and break from the
+>continuous while loop.
 >*   "n" : Set the place_order variable to "False" , print "Thank you for your
 >order", and break from the continuous while loop.
 >*   Default: Tell the customer to try again because they didn't type a valid
