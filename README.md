@@ -28,7 +28,7 @@ includes comments that the user can use as a guide for the necessary steps.
 >### Order System
 >1. Create an empty list. This list will later store a customer's order in
 >dictionary format, as follows:
->'''
+>~~~
 >[
 > {
 > "Item name": "string",
@@ -41,7 +41,7 @@ includes comments that the user can use as a guide for the necessary steps.
 > "Quantity": int
 > },
 >]
->'''
+>~~~
 >2. After the sub-menu is printed, prompt the customer to enter their selection
 >from the menu, saving it as a variable "menu_selection".
 >3. Use input validation to check if the customer input "menu_selection" is a
