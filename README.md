@@ -89,26 +89,5 @@ includes comments that the user can use as a guide for the necessary steps.
 >11. Upon exiting the "for" loop, use list comprehension and "sum()" to
 >calculate the total price of the order and display it to the customer. Make
 >sure you multiply the price by the quantity in your list comprehension.
-## Collaborators
-Although this project was done indivdually, the skillset used to complete this 
-assignment is a culmination of knowledge learned in the classroom setting that
-includes lecture materials, example programming from instructors, interactive
-and engaging dialogue in group settings among fellow students, independent
-internet researches, and some general programming guidance from sources such as
-CoPilot and ChatGPT. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Sources
+The starter code was sourced from instructional staff of the OSU AI Bootcamp.
