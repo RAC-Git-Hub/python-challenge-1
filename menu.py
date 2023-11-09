@@ -129,7 +129,7 @@ while place_order:
                 
                 # 4. Check if the menu selection is in the menu items
                 if not customer_input in menu_items.keys():
-                    print(f"{customer_input} is not a menu option.")
+                    print(f"Sorry, {customer_input} is not a menu option.")
                 else:
                     
                     # Store the item name as a variable
@@ -154,7 +154,7 @@ while place_order:
 
         else:
             # Tell the customer they didn't select a menu option
-            print(f"{menu_category} is not a menu option.")
+            print(f"Sorry, {menu_category} is not a menu option.")
     else:
         # Tell the customer they didn't select a number
         print("Sorry, you did not select a valid menu number.")
