@@ -13,12 +13,12 @@ the total cost.
 Before starting this assignment, make sure the user has a GitHub account, and 
 also VS Code or similar IDE that can run Python 3.10 installed on the user's
 computer. Then take the following steps:
-*   Create a new respository in GitHub called "python-challenge-1" 
-    **DO NOT ADD TO AN EXISTING REPOSITORY.**
-*   Clone the new repository to the user's computer
-*   Inside the local Git repository, add the starter file "menu.py" from the
-    file downloads
-*   Push the changes just made to GitHub or GitLab.
+>*   Create a new respository in GitHub called "python-challenge-1" 
+>    **DO NOT ADD TO AN EXISTING REPOSITORY.**
+>*   Clone the new repository to the user's computer
+>*   Inside the local Git repository, add the starter file "menu.py" from the
+>    file downloads
+>*   Push the changes just made to GitHub or GitLab.
 
 ## Project Execution
 Using the starter code provided by the instructional staff, the user will first
@@ -26,7 +26,9 @@ create the order system, then prepare the order receipt. The starter code
 includes comments that the user can use as a guide for the necessary steps.
 
 >### Order System
->1. Create an empty list. This list will later store a customer's order in dictionary format, as >follows:
+>1. Create an empty list. This list will later store a customer's order in
+>dictionary format, as follows:
+>'''
 >[
 > {
 > "Item name": "string",
@@ -39,13 +41,14 @@ includes comments that the user can use as a guide for the necessary steps.
 > "Quantity": int
 > },
 >]
+>'''
 >2. After the sub-menu is printed, prompt the customer to enter their selection
 >from the menu, saving it as a variable "menu_selection".
 >3. Use input validation to check if the customer input "menu_selection" is a
 >number. If it isn't, print an error message. If it is a number, convert the
 >input to an integer and use it to check if it is in the keys of "menu_items".
->4. If the user input is not in the "menu_items" keys, print an error. Otherwise,
->perform the following actions:
+>4. If the user input is not in the "menu_items" keys, print an error. 
+> Otherwise, perform the following actions:
 >*   Get the item name from the "menu_items" dictionary and store it as a
 >variable.
 >*   Ask the customer for the quantity of the menu item, using the item name
