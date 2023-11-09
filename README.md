@@ -49,14 +49,14 @@ includes comments that the user can use as a guide for the necessary steps.
 >input to an integer and use it to check if it is in the keys of "menu_items".
 >4. If the user input is not in the "menu_items" keys, print an error. 
 > Otherwise, perform the following actions:
->*   Get the item name from the "menu_items" dictionary and store it as a
+>*  Get the item name from the "menu_items" dictionary and store it as a
 >variable.
->*   Ask the customer for the quantity of the menu item, using the item name
+>*  Ask the customer for the quantity of the menu item, using the item name
 >variable in the question, and let them know that the quantity will default to 1
 >if their input is invalid. Save their answer as a variable called "quantity".
->*   Check that the customer input is a number. If it isn't, set the "quantity"
+>*  Check that the customer input is a number. If it isn't, set the "quantity"
 >to the value 1. If it is a number, convert the variable to an integer.
->*   Append the customer's order to the order list in dictionary format with the
+>*  Append the customer's order to the order list in dictionary format with the
 >following keys: "Item name" , "Price" , and "Quantity. You will need this
 >information to print the receipt at the end of the order. The price should be
 >found in the "menu_items" dictionary.
@@ -89,7 +89,13 @@ includes comments that the user can use as a guide for the necessary steps.
 >11. Upon exiting the "for" loop, use list comprehension and "sum()" to
 >calculate the total price of the order and display it to the customer. Make
 >sure you multiply the price by the quantity in your list comprehension.
-
+## Collaborators
+Although this project was done indivdually, the skillset used to complete this 
+assignment is a culmination of knowledge learned in the classroom setting that
+includes lecture materials, example programming from instructors, interactive
+and engaging dialogue in group settings among fellow students, independent
+internet researches, and some general programming guidance from sources such as
+CoPilot and ChatGPT. 
 
 
 
