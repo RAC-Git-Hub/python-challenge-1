@@ -151,7 +151,6 @@ while place_order:
                         "Quantity": quantity
                     })
 
-
         else:
             # Tell the customer they didn't select a menu option
             print(f"Sorry, {menu_category} is not a menu option.")
